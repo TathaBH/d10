@@ -1,0 +1,22 @@
+entity.university.settings:
+  title: 'Settings'
+  route_name: entity.university.settings
+  base_route: entity.university.settings
+entity.university.view:
+  title: 'View'
+  route_name: entity.university.canonical
+  base_route: entity.university.canonical
+entity.university.edit_form:
+  title: 'Edit'
+  route_name: entity.university.edit_form
+  base_route: entity.university.canonical
+entity.university.delete_form:
+  title: 'Delete'
+  route_name: entity.university.delete_form
+  base_route: entity.university.canonical
+  weight: 10
+entity.university.collection:
+  title: 'Universities'
+  route_name: entity.university.collection
+  base_route: system.admin_content
+  weight: 10

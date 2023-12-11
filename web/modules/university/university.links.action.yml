@@ -1,0 +1,5 @@
+university.add_form:
+  title: 'Add university'
+  route_name: entity.university.add_form
+  appears_on:
+    - entity.university.collection

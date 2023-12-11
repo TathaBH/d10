@@ -1,0 +1,11 @@
+entity.university.settings:
+  title: 'University'
+  description: 'Configure an University entity type.'
+  route_name:  entity.university.settings
+  parent: system.admin_structure
+
+entity.university.collection:
+  title: 'Universities'
+  description: 'List of universities.'
+  route_name: entity.university.collection
+  parent: system.admin_content

@@ -1,0 +1,7 @@
+loginevent.example:
+  path: '/loginevent/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\loginevent\Controller\LogineventController'
+  requirements:
+    _permission: 'access content'

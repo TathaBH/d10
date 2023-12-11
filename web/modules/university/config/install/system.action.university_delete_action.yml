@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - university
+id: university_delete_action
+label: 'Delete universities'
+type: university
+plugin: entity:delete_action:university
+configuration: {  }

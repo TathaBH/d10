@@ -1,0 +1,3 @@
+administer university:
+  title: 'Administer universities'
+  restrict access: true

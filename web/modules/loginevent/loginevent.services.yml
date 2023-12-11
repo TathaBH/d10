@@ -1,0 +1,5 @@
+services:
+  loginevent.event_subscriber:
+    class: Drupal\loginevent\EventSubscriber\LogineventSubscriber
+    tags:
+      - { name: event_subscriber }

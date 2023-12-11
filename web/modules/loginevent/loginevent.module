@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for LoginEvent module.
+ */
+
+use Drupal\loginevent\Event\afterLoginEvent;
+/**
+ * Implements hook_user_login().
+ */
+function loginevent_user_login($account): void {
+    
+  $event = new afterLoginEvent($account);
+  
+  $event_dispatcher = \Drupal::service('event_dispatcher');
+  $event_dispatcher->dispatch($event, afterLoginEvent::EVENT_NAME);
+ 
+}

@@ -1,0 +1,7 @@
+entity.university.settings:
+  path: 'admin/structure/university'
+  defaults:
+    _form: '\Drupal\university\Form\UniversitySettingsForm'
+    _title: 'University'
+  requirements:
+    _permission: 'administer university'

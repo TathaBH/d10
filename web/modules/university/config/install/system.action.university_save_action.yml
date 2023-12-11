@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - university
+id: university_save_action
+label: 'Save universities'
+type: university
+plugin: entity:save_action:university
+configuration: {  }

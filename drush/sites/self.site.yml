@@ -1,0 +1,10 @@
+site1:
+  host: site1.d10.com
+  root: C:\xampp\htdocs\d10
+  uri: http://site1.d10.com
+  
+site2:
+  host: site2.d10.com
+  root: C:\xampp\htdocs\d10
+  uri: http://site2.d10.com
+  
