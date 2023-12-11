@@ -1,5 +1,5 @@
 name: 'LoginEvent'
 type: module
-description: 'login event for use in local env'
+description: 'login event for use in local environment'
 package: Custom
 core_version_requirement: ^10
