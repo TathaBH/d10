@@ -1,0 +1,12 @@
+admin_register.admin_register_type.*:
+  type: config_entity
+  label: 'Admin Register type config'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Label'
+    uuid:
+      type: string

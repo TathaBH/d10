@@ -1,0 +1,4 @@
+administer admin_register types:
+  title: 'Administer admin register types'
+  description: 'Maintain the types of admin register entity.'
+  restrict access: true

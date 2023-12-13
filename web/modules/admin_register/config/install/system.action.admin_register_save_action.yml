@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - admin_register
+id: admin_register_save_action
+label: 'Save admin registers'
+type: admin_register
+plugin: entity:save_action:admin_register
+configuration: {  }

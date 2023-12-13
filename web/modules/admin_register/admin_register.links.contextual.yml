@@ -1,0 +1,10 @@
+entity.admin_register.edit_form:
+  route_name: entity.admin_register.edit_form
+  group: admin_register
+  title: 'Edit'
+
+entity.admin_register.delete_form:
+  route_name: entity.admin_register.delete_form
+  group: admin_register
+  title: 'Delete'
+  weight: 10

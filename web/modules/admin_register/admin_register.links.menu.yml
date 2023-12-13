@@ -1,0 +1,11 @@
+entity.admin_register_type.collection:
+  title: 'Admin Register types'
+  description: 'Manage and CRUD actions on Admin Register type.'
+  parent: system.admin_structure
+  route_name: entity.admin_register_type.collection
+
+entity.admin_register.collection:
+  title: 'Admin Registers'
+  description: 'List of admin registers.'
+  route_name: entity.admin_register.collection
+  parent: system.admin_content

@@ -1,0 +1,26 @@
+entity.admin_register.view:
+  title: 'View'
+  route_name: entity.admin_register.canonical
+  base_route: entity.admin_register.canonical
+entity.admin_register.edit_form:
+  title: 'Edit'
+  route_name: entity.admin_register.edit_form
+  base_route: entity.admin_register.canonical
+entity.admin_register.delete_form:
+  title: 'Delete'
+  route_name: entity.admin_register.delete_form
+  base_route: entity.admin_register.canonical
+  weight: 10
+entity.admin_register.collection:
+  title: 'Admin Registers'
+  route_name: entity.admin_register.collection
+  base_route: system.admin_content
+  weight: 10
+entity.admin_register_type.edit_form:
+  title: 'Edit'
+  route_name: entity.admin_register_type.edit_form
+  base_route: entity.admin_register_type.edit_form
+entity.admin_register_type.collection:
+  title: 'List'
+  route_name: entity.admin_register_type.collection
+  base_route: entity.admin_register_type.collection

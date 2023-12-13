@@ -1,0 +1,11 @@
+admin_register.type_add:
+  title: 'Add admin register type'
+  route_name: entity.admin_register_type.add_form
+  appears_on:
+    - entity.admin_register_type.collection
+
+admin_register.add_page:
+  title: 'Add admin register'
+  route_name: entity.admin_register.add_page
+  appears_on:
+    - entity.admin_register.collection
